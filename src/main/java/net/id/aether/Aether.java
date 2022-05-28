@@ -4,7 +4,6 @@ import com.mojang.logging.LogUtils;
 import de.guntram.mcmod.crowdintranslate.CrowdinTranslate;
 import net.fabricmc.api.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
-import net.fabricmc.loader.api.FabricLoader;
 import net.id.aether.blocks.AetherBlocks;
 import net.id.aether.blocks.blockentity.AetherBlockEntityTypes;
 import net.id.aether.client.model.AetherModelLayers;
@@ -29,13 +28,14 @@ import net.id.aether.loot.AetherLootNumberProviderTypes;
 import net.id.aether.lore.AetherLore;
 import net.id.aether.registry.AetherRegistries;
 import net.id.aether.screen.AetherScreens;
+import net.id.aether.structure.AetherStructurePools;
+import net.id.aether.structure.AetherStructureSets;
 import net.id.aether.util.AetherSoundEvents;
 import net.id.aether.world.AetherGameRules;
 import net.id.aether.world.dimension.AetherBiomes;
 import net.id.aether.world.dimension.AetherDimension;
 import net.id.aether.world.feature.AetherFeatures;
 import net.id.aether.world.gen.carver.AetherCarvers;
-import net.id.incubus_core.devel.Devel;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 
@@ -45,7 +45,7 @@ import org.slf4j.Logger;
  * authors than the author of the code itself.
  * If you have any questions or concerns regarding documentation,
  * please contact either the doc author or the code author, or
- * both, via our <a, href="https://discord.gg/eRsJ6F3Wng">Discord</a>.
+ * both, via our <a href="https://discord.gg/eRsJ6F3Wng">Discord</a>.
  * <br><br>
  * The doc author can usually be found at the end of the first doc
  * of the class, next to a tilde.
@@ -100,6 +100,8 @@ public class Aether implements ModInitializer, ClientModInitializer, DedicatedSe
         AetherScreens.init();
         AetherLore.init();
         AetherParticles.init();
+        AetherStructurePools.init();
+        AetherStructureSets.init();
     }
 
     @Override

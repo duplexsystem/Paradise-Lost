@@ -10,8 +10,8 @@
     "entity.EntityMixin",
     "entity.LivingEntityMixin",
     "entity.PlayerEntityMixin",
-    "entity.SlimeEntity$RandomLookGoalMixin",
     "entity.SlimeEntityMixin",
+    "entity.SlimeEntityRandomLookGoalMixin",
     "entity.SlimeMoveControlMixin",
     "fluid.FlowableFluidMixin",
     "item.ArmorMaterialsAccessor",
@@ -27,7 +27,6 @@
     "server.PlayerManagerMixin",
     "server.ServerPlayerEntityMixin",
     "server.ServerPlayNetworkHandlerMixin",
-    "structure.StructureFeatureAccessor",
     "util.NbtCompoundAccessor",
     "util.RarityMixin",
     "util.SlotAccessor"

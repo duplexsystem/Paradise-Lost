@@ -1,4 +1,4 @@
-package net.id.aether.world.feature.structure.generator;
+package net.id.aether.structure;
 
 import net.id.aether.Aether;
 import net.id.aether.world.feature.structure.AetherStructureFeatures;
