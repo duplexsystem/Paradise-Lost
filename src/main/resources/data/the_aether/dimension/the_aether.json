@@ -7,16 +7,16 @@
           "parameters": {
             "erosion": [
               0.2,
-              1.0
+              1
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "humidity": 0.0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
+            "temperature": 0,
+            "humidity": 0,
             "continentalness": [
-              0.0,
-              1.0
+              0,
+              1
             ]
           },
           "biome": "the_aether:aether_highlands"
@@ -24,12 +24,12 @@
         {
           "parameters": {
             "erosion": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
-            "offset": 0.0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
             "temperature": -0.15,
             "humidity": 0.1,
             "continentalness": [
@@ -45,14 +45,14 @@
               -0.2,
               0.96
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
-            "offset": 0.0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
             "temperature": -0.25,
             "humidity": 0.02,
             "continentalness": [
               0.8,
-              1.0
+              1
             ]
           },
           "biome": "the_aether:continental_plateau"
@@ -63,9 +63,9 @@
               -0.23,
               0.86
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
-            "offset": 0.0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
             "temperature": -0.35,
             "humidity": 0.075,
             "continentalness": 0.84
@@ -75,17 +75,17 @@
         {
           "parameters": {
             "erosion": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
+            "depth": 0,
+            "weirdness": 0,
             "offset": 0.05,
             "temperature": 0.35,
             "humidity": -0.05,
             "continentalness": [
-              -1.0,
-              1.0
+              -1,
+              1
             ]
           },
           "biome": "the_aether:aether_highlands_thicket"
@@ -93,16 +93,16 @@
         {
           "parameters": {
             "erosion": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
-            "offset": 0.0,
+            "depth": 0,
+            "weirdness": 0,
+            "offset": 0,
             "temperature": 0.225,
             "humidity": -0.015,
             "continentalness": [
-              -1.0,
+              -1,
               0.23
             ]
           },
@@ -111,21 +111,21 @@
         {
           "parameters": {
             "erosion": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
-            "depth": 0.0,
-            "weirdness": 0.0,
+            "depth": 0,
+            "weirdness": 0,
             "offset": 0.125,
             "temperature": 0.1,
-            "humidity": 0.0,
+            "humidity": 0,
             "continentalness": [
               -0.4,
               0.82
             ]
           },
           "biome": "the_aether:aether_wisteria_woods"
-        }        
+        }
       ],
       "type": "minecraft:multi_noise"
     },
